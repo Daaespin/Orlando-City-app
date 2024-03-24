@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5D14BA62BB0D2D8000C601D /* Orlando_city_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D14BA52BB0D2D8000C601D /* Orlando_city_appApp.swift */; };
+		F5D14BA82BB0D2D8000C601D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D14BA72BB0D2D8000C601D /* ContentView.swift */; };
+		F5D14BAA2BB0D2DA000C601D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D14BA92BB0D2DA000C601D /* Assets.xcassets */; };
+		F5D14BAD2BB0D2DA000C601D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D14BAC2BB0D2DA000C601D /* Preview Assets.xcassets */; };
+		F5D14BB72BB0D2DB000C601D /* Orlando_city_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D14BB62BB0D2DB000C601D /* Orlando_city_appTests.swift */; };
+		F5D14BC12BB0D2DB000C601D /* Orlando_city_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D14BC02BB0D2DB000C601D /* Orlando_city_appUITests.swift */; };
+		F5D14BC32BB0D2DB000C601D /* Orlando_city_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D14BC22BB0D2DB000C601D /* Orlando_city_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D14BB32BB0D2DB000C601D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D14B9A2BB0D2D8000C601D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D14BA12BB0D2D8000C601D;
+			remoteInfo = "Orlando city app";
+		};
+		F5D14BBD2BB0D2DB000C601D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D14B9A2BB0D2D8000C601D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D14BA12BB0D2D8000C601D;
+			remoteInfo = "Orlando city app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5D14BA22BB0D2D8000C601D /* Orlando city app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Orlando city app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D14BA52BB0D2D8000C601D /* Orlando_city_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orlando_city_appApp.swift; sourceTree = "<group>"; };
+		F5D14BA72BB0D2D8000C601D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5D14BA92BB0D2DA000C601D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5D14BAC2BB0D2DA000C601D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5D14BB22BB0D2DB000C601D /* Orlando city appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orlando city appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D14BB62BB0D2DB000C601D /* Orlando_city_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orlando_city_appTests.swift; sourceTree = "<group>"; };
+		F5D14BBC2BB0D2DB000C601D /* Orlando city appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orlando city appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D14BC02BB0D2DB000C601D /* Orlando_city_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orlando_city_appUITests.swift; sourceTree = "<group>"; };
+		F5D14BC22BB0D2DB000C601D /* Orlando_city_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orlando_city_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D14B9F2BB0D2D8000C601D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D14BAF2BB0D2DB000C601D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D14BB92BB0D2DB000C601D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D14B992BB0D2D8000C601D = {
+			isa = PBXGroup;
+			children = (
+				F5D14BA42BB0D2D8000C601D /* Orlando city app */,
+				F5D14BB52BB0D2DB000C601D /* Orlando city appTests */,
+				F5D14BBF2BB0D2DB000C601D /* Orlando city appUITests */,
+				F5D14BA32BB0D2D8000C601D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D14BA32BB0D2D8000C601D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D14BA22BB0D2D8000C601D /* Orlando city app.app */,
+				F5D14BB22BB0D2DB000C601D /* Orlando city appTests.xctest */,
+				F5D14BBC2BB0D2DB000C601D /* Orlando city appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D14BA42BB0D2D8000C601D /* Orlando city app */ = {
+			isa = PBXGroup;
+			children = (
+				F5D14BA52BB0D2D8000C601D /* Orlando_city_appApp.swift */,
+				F5D14BA72BB0D2D8000C601D /* ContentView.swift */,
+				F5D14BA92BB0D2DA000C601D /* Assets.xcassets */,
+				F5D14BAB2BB0D2DA000C601D /* Preview Content */,
+			);
+			path = "Orlando city app";
+			sourceTree = "<group>";
+		};
+		F5D14BAB2BB0D2DA000C601D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F5D14BAC2BB0D2DA000C601D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5D14BB52BB0D2DB000C601D /* Orlando city appTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D14BB62BB0D2DB000C601D /* Orlando_city_appTests.swift */,
+			);
+			path = "Orlando city appTests";
+			sourceTree = "<group>";
+		};
+		F5D14BBF2BB0D2DB000C601D /* Orlando city appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D14BC02BB0D2DB000C601D /* Orlando_city_appUITests.swift */,
+				F5D14BC22BB0D2DB000C601D /* Orlando_city_appUITestsLaunchTests.swift */,
+			);
+			path = "Orlando city appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D14BA12BB0D2D8000C601D /* Orlando city app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D14BC62BB0D2DB000C601D /* Build configuration list for PBXNativeTarget "Orlando city app" */;
+			buildPhases = (
+				F5D14B9E2BB0D2D8000C601D /* Sources */,
+				F5D14B9F2BB0D2D8000C601D /* Frameworks */,
+				F5D14BA02BB0D2D8000C601D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Orlando city app";
+			productName = "Orlando city app";
+			productReference = F5D14BA22BB0D2D8000C601D /* Orlando city app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5D14BB12BB0D2DB000C601D /* Orlando city appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D14BC92BB0D2DB000C601D /* Build configuration list for PBXNativeTarget "Orlando city appTests" */;
+			buildPhases = (
+				F5D14BAE2BB0D2DB000C601D /* Sources */,
+				F5D14BAF2BB0D2DB000C601D /* Frameworks */,
+				F5D14BB02BB0D2DB000C601D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D14BB42BB0D2DB000C601D /* PBXTargetDependency */,
+			);
+			name = "Orlando city appTests";
+			productName = "Orlando city appTests";
+			productReference = F5D14BB22BB0D2DB000C601D /* Orlando city appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5D14BBB2BB0D2DB000C601D /* Orlando city appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D14BCC2BB0D2DB000C601D /* Build configuration list for PBXNativeTarget "Orlando city appUITests" */;
+			buildPhases = (
+				F5D14BB82BB0D2DB000C601D /* Sources */,
+				F5D14BB92BB0D2DB000C601D /* Frameworks */,
+				F5D14BBA2BB0D2DB000C601D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D14BBE2BB0D2DB000C601D /* PBXTargetDependency */,
+			);
+			name = "Orlando city appUITests";
+			productName = "Orlando city appUITests";
+			productReference = F5D14BBC2BB0D2DB000C601D /* Orlando city appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D14B9A2BB0D2D8000C601D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F5D14BA12BB0D2D8000C601D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					F5D14BB12BB0D2DB000C601D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F5D14BA12BB0D2D8000C601D;
+					};
+					F5D14BBB2BB0D2DB000C601D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F5D14BA12BB0D2D8000C601D;
+					};
+				};
+			};
+			buildConfigurationList = F5D14B9D2BB0D2D8000C601D /* Build configuration list for PBXProject "Orlando city app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5D14B992BB0D2D8000C601D;
+			productRefGroup = F5D14BA32BB0D2D8000C601D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D14BA12BB0D2D8000C601D /* Orlando city app */,
+				F5D14BB12BB0D2DB000C601D /* Orlando city appTests */,
+				F5D14BBB2BB0D2DB000C601D /* Orlando city appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D14BA02BB0D2D8000C601D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D14BAD2BB0D2DA000C601D /* Preview Assets.xcassets in Resources */,
+				F5D14BAA2BB0D2DA000C601D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D14BB02BB0D2DB000C601D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D14BBA2BB0D2DB000C601D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D14B9E2BB0D2D8000C601D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D14BA82BB0D2D8000C601D /* ContentView.swift in Sources */,
+				F5D14BA62BB0D2D8000C601D /* Orlando_city_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D14BAE2BB0D2DB000C601D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D14BB72BB0D2DB000C601D /* Orlando_city_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D14BB82BB0D2DB000C601D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D14BC12BB0D2DB000C601D /* Orlando_city_appUITests.swift in Sources */,
+				F5D14BC32BB0D2DB000C601D /* Orlando_city_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D14BB42BB0D2DB000C601D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D14BA12BB0D2D8000C601D /* Orlando city app */;
+			targetProxy = F5D14BB32BB0D2DB000C601D /* PBXContainerItemProxy */;
+		};
+		F5D14BBE2BB0D2DB000C601D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D14BA12BB0D2D8000C601D /* Orlando city app */;
+			targetProxy = F5D14BBD2BB0D2DB000C601D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F5D14BC42BB0D2DB000C601D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5D14BC52BB0D2DB000C601D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5D14BC72BB0D2DB000C601D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Orlando city app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Valencia.Orlando-city-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5D14BC82BB0D2DB000C601D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Orlando city app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Valencia.Orlando-city-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5D14BCA2BB0D2DB000C601D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Valencia.Orlando-city-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orlando city app.app/Orlando city app";
+			};
+			name = Debug;
+		};
+		F5D14BCB2BB0D2DB000C601D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Valencia.Orlando-city-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orlando city app.app/Orlando city app";
+			};
+			name = Release;
+		};
+		F5D14BCD2BB0D2DB000C601D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Valencia.Orlando-city-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Orlando city app";
+			};
+			name = Debug;
+		};
+		F5D14BCE2BB0D2DB000C601D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Valencia.Orlando-city-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Orlando city app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D14B9D2BB0D2D8000C601D /* Build configuration list for PBXProject "Orlando city app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D14BC42BB0D2DB000C601D /* Debug */,
+				F5D14BC52BB0D2DB000C601D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D14BC62BB0D2DB000C601D /* Build configuration list for PBXNativeTarget "Orlando city app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D14BC72BB0D2DB000C601D /* Debug */,
+				F5D14BC82BB0D2DB000C601D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D14BC92BB0D2DB000C601D /* Build configuration list for PBXNativeTarget "Orlando city appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D14BCA2BB0D2DB000C601D /* Debug */,
+				F5D14BCB2BB0D2DB000C601D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D14BCC2BB0D2DB000C601D /* Build configuration list for PBXNativeTarget "Orlando city appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D14BCD2BB0D2DB000C601D /* Debug */,
+				F5D14BCE2BB0D2DB000C601D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5D14B9A2BB0D2D8000C601D /* Project object */;
+}

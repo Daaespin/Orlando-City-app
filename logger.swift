@@ -1,5 +1,6 @@
 //We can also log the pdfs that were created using the app with a database. 
 // Please let me know if you want to use the database instead. 
+//We can also log the date of the PDF. 
 import Foundation
 
 class PDFTracker {

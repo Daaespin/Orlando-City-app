@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1AB9C88C-513B-4D26-810B-7AB83FEF8330"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA7EB9A2-3318-460C-A958-890754EB3F38"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inputView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "ContentView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "BA7EB9A2-3318-460C-A958-890754EB3F38 - 22dc8b69c77e0dfc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of pdfkittest.ContentView.isShowingPDF : Swift.Bool"
+                  moduleName = "pdfkittest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diamondratuppanant/Desktop/Climber%20App/ClippedIn/orlandoIOS/pdfkittest/inputView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "BA7EB9A2-3318-460C-A958-890754EB3F38 - 2e902fa56a6b8ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pdfkittest.ContentView.init() -&gt; pdfkittest.ContentView"
+                  moduleName = "pdfkittest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/diamondratuppanant/Desktop/Climber%20App/ClippedIn/orlandoIOS/pdfkittest/inputView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

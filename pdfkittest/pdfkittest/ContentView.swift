@@ -33,9 +33,9 @@ struct PDFExampleView: View {
                     SharePDFView(pdfData: pdfData, fileName: "GeneratedPDF.pdf")
                 })
             }
-
-
-
+            
+            
+            
             if let errorMessage = errorMessage {
                 Text(errorMessage)
                     .foregroundColor(.red)
@@ -51,27 +51,31 @@ struct PDFExampleView: View {
             errorMessage = "Failed to load PDF template."
             return
         }
-        
+
         let pdfRenderer = UIGraphicsPDFRenderer(bounds: page.bounds(for: .mediaBox))
         let data = pdfRenderer.pdfData { context in
             context.beginPage()
-            
+
             let cgContext = context.cgContext
+            cgContext.translateBy(x: 0, y: page.bounds(for: .mediaBox).height) // Move the origin to the bottom-left corner
+            cgContext.scaleBy(x: 1.0, y: -1.0) // Flip the context
+
             cgContext.drawPDFPage(page.pageRef!) // Use pageRef to get CGPDFPage
-            
+
+            // After flipping the context, adjust the position where you draw the text
             let titleAttributes = [
                 NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 24)
             ]
             let title = NSAttributedString(string: "Personal Information", attributes: titleAttributes)
-            title.draw(at: CGPoint(x: 50, y: 50))
-            
+            title.draw(at: CGPoint(x: 50, y: page.bounds(for: .mediaBox).height - 50)) // Adjusted y-coordinate
+
             let infoAttributes = [
                 NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18)
             ]
             let info = NSAttributedString(string: "Name: \(name)\nEmail: \(email)\nPhone Number: \(phoneNumber)", attributes: infoAttributes)
-            info.draw(at: CGPoint(x: 50, y: 100))
+            info.draw(at: CGPoint(x: 50, y: page.bounds(for: .mediaBox).height - 200)) // Adjusted y-coordinate
         }
-        
+
         if let pdfDocument = PDFDocument(data: data) {
             self.pdfDocument = pdfDocument
             errorMessage = nil
@@ -79,4 +83,5 @@ struct PDFExampleView: View {
             errorMessage = "Failed to generate PDF."
         }
     }
+
 }

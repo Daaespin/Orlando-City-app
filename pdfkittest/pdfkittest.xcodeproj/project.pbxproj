@@ -9,26 +9,26 @@
 /* Begin PBXBuildFile section */
 		DFFE48952BB2569F0025A9C1 /* pdfkittestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE48942BB2569F0025A9C1 /* pdfkittestApp.swift */; };
 		DFFE48972BB2569F0025A9C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE48962BB2569F0025A9C1 /* ContentView.swift */; };
-		DFFE48992BB256A00025A9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFE48982BB256A00025A9C1 /* Assets.xcassets */; };
 		DFFE489C2BB256A00025A9C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFE489B2BB256A00025A9C1 /* Preview Assets.xcassets */; };
 		DFFE489E2BB256A00025A9C1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE489D2BB256A00025A9C1 /* Persistence.swift */; };
 		DFFE48A12BB256A00025A9C1 /* pdfkittest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFFE489F2BB256A00025A9C1 /* pdfkittest.xcdatamodeld */; };
 		DFFE48A82BB257900025A9C1 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE48A72BB257900025A9C1 /* PDFKitView.swift */; };
 		DFFE48AA2BB259A70025A9C1 /* inputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE48A92BB259A70025A9C1 /* inputView.swift */; };
 		DFFE48AC2BB25B4E0025A9C1 /* sharePDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE48AB2BB25B4E0025A9C1 /* sharePDFView.swift */; };
+		DFFE49202BD74F100025A9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFE491F2BD74F100025A9C1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DFFE48912BB2569F0025A9C1 /* pdfkittest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pdfkittest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFE48942BB2569F0025A9C1 /* pdfkittestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfkittestApp.swift; sourceTree = "<group>"; };
 		DFFE48962BB2569F0025A9C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DFFE48982BB256A00025A9C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFFE489B2BB256A00025A9C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFFE489D2BB256A00025A9C1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DFFE48A02BB256A00025A9C1 /* pdfkittest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pdfkittest.xcdatamodel; sourceTree = "<group>"; };
 		DFFE48A72BB257900025A9C1 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
 		DFFE48A92BB259A70025A9C1 /* inputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputView.swift; sourceTree = "<group>"; };
 		DFFE48AB2BB25B4E0025A9C1 /* sharePDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharePDFView.swift; sourceTree = "<group>"; };
+		DFFE491F2BD74F100025A9C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Orlando city app/Orlando city app/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 				DFFE48962BB2569F0025A9C1 /* ContentView.swift */,
 				DFFE48A72BB257900025A9C1 /* PDFKitView.swift */,
 				DFFE48AB2BB25B4E0025A9C1 /* sharePDFView.swift */,
-				DFFE48982BB256A00025A9C1 /* Assets.xcassets */,
+				DFFE491F2BD74F100025A9C1 /* Assets.xcassets */,
 				DFFE489D2BB256A00025A9C1 /* Persistence.swift */,
 				DFFE489F2BB256A00025A9C1 /* pdfkittest.xcdatamodeld */,
 				DFFE489A2BB256A00025A9C1 /* Preview Content */,
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFFE489C2BB256A00025A9C1 /* Preview Assets.xcassets in Resources */,
-				DFFE48992BB256A00025A9C1 /* Assets.xcassets in Resources */,
+				DFFE49202BD74F100025A9C1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

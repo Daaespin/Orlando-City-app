@@ -7,7 +7,8 @@ struct PDFExampleView: View {
     @State private var phoneNumber: String = ""
     @State private var pdfDocument: PDFDocument?
     @State private var isShowingShareSheet: Bool = false
-
+    @State private var errorMessage: String?
+    
     var body: some View {
         VStack {
             Form {
@@ -21,44 +22,61 @@ struct PDFExampleView: View {
                 generatePDF()
             }
             if let pdfDocument = pdfDocument {
-                PDFKitView(pdfData: pdfDocument)
+                let pdfData = pdfDocument.dataRepresentation() ?? Data()
+                let pdf = PDFDocument(data: pdfData)
+                PDFKitView(pdfData: pdf ?? PDFDocument())
                     .frame(width: 300, height: 300)
                 Button("Share") {
                     isShowingShareSheet = true
                 }
                 .sheet(isPresented: $isShowingShareSheet, content: {
-                    SharePDFView(pdfData: pdfDocument.dataRepresentation() ?? Data(), fileName: "GeneratedPDF.pdf")
+                    SharePDFView(pdfData: pdfData, fileName: "GeneratedPDF.pdf")
                 })
+            }
+
+
+
+            if let errorMessage = errorMessage {
+                Text(errorMessage)
+                    .foregroundColor(.red)
             }
         }
     }
-
+    
     @MainActor
     private func generatePDF() {
-        let pdfRenderer = UIGraphicsPDFRenderer(bounds: CGRect(x: 0, y: 0, width: 595, height: 842))
+        let templateURL = URL(string: "https://www.orlando.gov/files/sharedassets/public/v/1/departments/edv/permitting-services-division/bld/revision-request-1.2020.pdf")!
+        guard let template = PDFDocument(url: templateURL),
+              let page = template.page(at: 0) else {
+            errorMessage = "Failed to load PDF template."
+            return
+        }
+        
+        let pdfRenderer = UIGraphicsPDFRenderer(bounds: page.bounds(for: .mediaBox))
         let data = pdfRenderer.pdfData { context in
             context.beginPage()
-
-            alignText(value: "Name: \(name)", x: 0, y: 30, width: 595, height: 50, alignment: .left, textFont: UIFont.systemFont(ofSize: 20, weight: .regular))
-            alignText(value: "Email: \(email)", x: 0, y: 80, width: 595, height: 50, alignment: .left, textFont: UIFont.systemFont(ofSize: 20, weight: .regular))
-            alignText(value: "Phone Number: \(phoneNumber)", x: 0, y: 130, width: 595, height: 50, alignment: .left, textFont: UIFont.systemFont(ofSize: 20, weight: .regular))
+            
+            let cgContext = context.cgContext
+            cgContext.drawPDFPage(page.pageRef!) // Use pageRef to get CGPDFPage
+            
+            let titleAttributes = [
+                NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 24)
+            ]
+            let title = NSAttributedString(string: "Personal Information", attributes: titleAttributes)
+            title.draw(at: CGPoint(x: 50, y: 50))
+            
+            let infoAttributes = [
+                NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18)
+            ]
+            let info = NSAttributedString(string: "Name: \(name)\nEmail: \(email)\nPhone Number: \(phoneNumber)", attributes: infoAttributes)
+            info.draw(at: CGPoint(x: 50, y: 100))
         }
-
+        
         if let pdfDocument = PDFDocument(data: data) {
             self.pdfDocument = pdfDocument
+            errorMessage = nil
+        } else {
+            errorMessage = "Failed to generate PDF."
         }
-    }
-
-    private func alignText(value: String, x: Int, y: Int, width: Int, height: Int, alignment: NSTextAlignment, textFont: UIFont) {
-        let paragraphStyle = NSMutableParagraphStyle()
-        paragraphStyle.alignment = alignment
-
-        let attributes = [
-            NSAttributedString.Key.font: textFont,
-            NSAttributedString.Key.paragraphStyle: paragraphStyle
-        ]
-
-        let textRect = CGRect(x: x, y: y, width: width, height: height)
-        value.draw(in: textRect, withAttributes: attributes)
     }
 }
